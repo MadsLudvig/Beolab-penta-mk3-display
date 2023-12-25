@@ -3,7 +3,9 @@ Arduino project for controlling the displays on the b&o beolab penta mk3 speaker
 RPi project for syncing source/volume of denon avr to these displays.
 
 First, the schematic for the displays themselves has been reverse-engineered from the pcb. This schematic can be seen below. It is also shown how the arduino is connected to the display pcb.
-![Schematic](Schematic.png "Schematic")
 
 ![Hello World Test](hello_world.gif "Hello World")
+
+![Schematic](Schematic.png "Schematic")
+
 
