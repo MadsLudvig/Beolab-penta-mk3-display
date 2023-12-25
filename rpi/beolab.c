@@ -8,7 +8,7 @@ int parse_serial_input(char *serial_input, char *message) {
   if (strncmp(serial_input, "MVMAX", 5) == 0) {
     return 1;
   } else if (strncmp(serial_input, "MUON", 4) == 0) {
-    snprintf(message, 13, "Airplay   --");
+    snprintf(message, 13, "airplay   --");
     return 1;
   } else if (strncmp(serial_input, "MUOFF", 5) == 0) {
     snprintf(message, 13, "Airplay   %02d", volume);
